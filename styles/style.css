@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@475&display=swap');
+
+@media only screen and (max-width: 960px) {
+    #backphoto {
+      background-image: url(../images/head.png);
+    min-height: 100vh;
+    background-size: cover;
+    }
+    
+    
+  }
+
 #backphoto {
     background-image: url(../images/header.png);
     min-height: 100vh;
@@ -18,4 +29,9 @@
 }
 #nadpis {
     padding-bottom: 5rem;
+    max-width: 100vh;
+}
+video {
+  width: 100%;
+  height: auto;
 }
