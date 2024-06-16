@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@475&display=swap');
 
 @media only screen and (max-width: 960px) {
-  #backphoto {
+  #header {
     background-image: url(../images/head.png);
   min-height: 100vh;
   background-size: cover;
   }    
+}
+
+footer{
+  color: black;
+}
+footer a{
+  color: black;
 }
 
 .grad {
