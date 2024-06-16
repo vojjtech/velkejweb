@@ -8,31 +8,31 @@ Pro pojmenování tříd je doporučená metodika BEM.
 Body zadání
 HTML, struktura souborů
 
-Web má alespoň dvě stránky provázané společnými styly
-HTML kód je validní bez chyb ve validátoru
-HTML značky dávají smysl, kód obsahuje <article>, <section>, <header>, <nav>.
-Navigace mezi stránkami je tvořená přes <nav><ul><li><a> a je funkční i po zkopírování na lokální disk
-Soubory webu jsou členěny do složek (např. /styles, /images, /fonts)
+    Web má alespoň dvě stránky provázané společnými styly
+    HTML kód je validní bez chyb ve validátoru
+    HTML značky dávají smysl, kód obsahuje <article>, <section>, <header>, <nav>.
+    Navigace mezi stránkami je tvořená přes <nav><ul><li><a> a je funkční i po zkopírování na lokální disk
+    Soubory webu jsou členěny do složek (např. /styles, /images, /fonts)
 Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 
 CSS, vzhled
-Stránky používají několik souborů stylů, jeden z nich je normalize
-Ke stránkám jsou připojeny externí fonty (např. přes Google Fonts)
-Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
+    Stránky používají několik souborů stylů, jeden z nich je normalize
+    Ke stránkám jsou připojeny externí fonty (např. přes Google Fonts)
+    Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
 Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na max-width: 960px; margin: 0 auto;
 Obrázky mají rozumnou velikost pro mobilní telefon
-Velikosti písem jsou odvozeny od kořenového elementu
-Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
-Web používá omezenou paletu barev a mezer (lze zajistit přes proměnné v CSS)
-Barevné schéma je vkusné a odpovídá tématu. Inspiraci můžete čerpat z editoru palet
-Šířka hlavního bloku stránky je omezená (tedy používá například width, margin, max-width)
-Web obsahuje obrázek v záhlaví zobrazovaný na celou velikost/výšku obrazovky
-.main-header {     background-image: url(img_bg.jpg);     min-height: 100vh; }
-Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
-Odkazy (například menu) využívají efekt :hover (a můžete použít i další...)
-Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ::before nebo ::after)
+    Velikosti písem jsou odvozeny od kořenového elementu
+    Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
+    Web používá omezenou paletu barev a mezer (lze zajistit přes proměnné v CSS)
+    Barevné schéma je vkusné a odpovídá tématu. Inspiraci můžete čerpat z editoru palet
+    Šířka hlavního bloku stránky je omezená (tedy používá například width, margin, max-width)
+    Web obsahuje obrázek v záhlaví zobrazovaný na celou velikost/výšku obrazovky
+    .main-header {     background-image: url(img_bg.jpg);     min-height: 100vh; }
+    Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
+    Odkazy (například menu) využívají efekt :hover (a můžete použít i další...)
+    Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ::before nebo ::after)
 
 
 

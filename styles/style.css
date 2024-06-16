@@ -2,15 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@475&display=swap');
 
 @media only screen and (max-width: 960px) {
-    #backphoto {
-      background-image: url(../images/head.png);
-    min-height: 100vh;
-    background-size: cover;
-    }
-    
-    
-  }
+  #backphoto {
+    background-image: url(../images/head.png);
+  min-height: 100vh;
+  background-size: cover;
+  }    
+}
 
+.grad {
+  background: rgb(0,78,160);
+background: linear-gradient(193deg, rgba(0,78,160,1) 7%, rgba(0,30,135,1) 14%, rgba(0,19,86,1) 20%, rgba(39,24,64,1) 28%, rgba(59,27,53,1) 33%, rgba(109,26,48,1) 40%, rgba(140,23,54,1) 44%, rgba(151,21,52,1) 47%, rgba(161,18,50,1) 49%, rgba(178,14,47,1) 51%, rgba(191,11,45,1) 53%, rgba(203,8,43,1) 55%, rgba(211,26,36,1) 58%, rgba(215,37,31,1) 63%, rgba(231,82,39,1) 72%, rgba(241,106,42,1) 78%, rgba(233,124,31,1) 83%, rgba(218,160,8,1) 90%, rgba(211,165,9,1) 96%);
+}
+
+nav {
+  backdrop-filter: blur(10px);
+  
+}
 
 #backphoto {
     background-image: url(../images/header.png);
@@ -108,4 +115,25 @@ video {
    
   }
 } 
+.barva {
+  background-color: aqua;
+  border-radius: 16px;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+p {
+  margin-bottom: 0;
+}
+.fotka {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+}
+p a::after {
+  content:url("../images/search.svg");
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
 
